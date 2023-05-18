@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Oma's Briefumschläge</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Oma's Briefumschläge</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Startseite</a></li>
+        <li><a href="#products">Produkte</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Willkommen bei Oma's Briefumschlägen!</h2>
+    <p>Wir bieten eine große Auswahl an liebevoll gestalteten Briefumschlägen speziell für Omas.</p>
+  </section>
+
+  <section id="products">
+    <h2>Unsere Produkte</h2>
+    <div class="product">
+      <img src="product1.jpg" alt="Briefumschlag 1">
+      <h3>Briefumschlag 1</h3>
+      <p>Eine Beschreibung des Briefumschlags und seiner Eigenschaften.</p>
+      <a href="buy.php?id=1">Jetzt kaufen</a>
+    </div>
+    <!-- Weitere Produktinformationen hier -->
+  </section>
+
+  <section id="contact">
+    <h2>Kontaktiere uns</h2>
+    <p>Für Fragen oder Anfragen stehen wir Ihnen gerne zur Verfügung.</p>
+    <form action="submit.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Oma's Briefumschläge. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
