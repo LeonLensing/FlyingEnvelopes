@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FlyingEnvelopes</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>FlyingEnvelopes - Briefumschläge für Omas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Willkommen bei FlyingEnvelopes!</h1>
-    </header>
-    
+  <header>
     <nav>
-        <ul>
-            <li><a href="#home">Startseite</a></li>
-            <li><a href="#products">Unsere Produkte</a></li>
-            <li><a href="#about">Über uns</a></li>
-            <li><a href="#contact">Kontakt</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Startseite</a></li>
+        <li><a href="#">Produkte</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
     </nav>
+  </header>
+  
+  <main>
+    <section id="hero">
+      <h1>Willkommen bei FlyingEnvelopes!</h1>
+      <p>Hier finden Sie eine Auswahl hochwertiger Briefumschläge speziell für Omas.</p>
+      <a href="#" class="cta-button">Jetzt entdecken</a>
+    </section>
     
-    <main>
-        <section id="home">
-            <h2>Willkommen bei FlyingEnvelopes!</h2>
-            <p>Hier finden Sie eine Auswahl hochwertiger Briefumschläge.</p>
-        </section>
-        
-        <section id="products">
-            <h2>Unsere Produkte</h2>
-            <p>Entdecken Sie unsere vielfältige Auswahl an Briefumschlägen in verschiedenen Farben und Größen.</p>
-        </section>
-        
-        <section id="about">
-            <h2>Über uns</h2>
-            <p>Erfahren Sie mehr über unser Unternehmen und unsere Leidenschaft für Briefumschläge.</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <p>Kontaktieren Sie uns für weitere Informationen oder bei Fragen.</p>
-        </section>
-    </main>
+    <section id="products">
+      <h2>Unsere Produkte</h2>
+      <div class="product">
+        <img src="umschlag1.jpg" alt="Umschlag 1">
+        <h3>Briefumschlag mit Blumendesign</h3>
+        <p>Preis: $9.99</p>
+      </div>
+      <div class="product">
+        <img src="umschlag2.jpg" alt="Umschlag 2">
+        <h3>Briefumschlag mit Vintage-Muster</h3>
+        <p>Preis: $12.99</p>
+      </div>
+      <!-- Weitere Produkte hier -->
+    </section>
     
-    <footer>
-        <p>&copy; 2023 FlyingEnvelopes. Alle Rechte vorbehalten.</p>
-    </footer>
+    <section id="contact">
+      <h2>Kontaktieren Sie uns</h2>
+      <p>Wenn Sie Fragen haben oder Hilfe benötigen, kontaktieren Sie uns gerne!</p>
+      <form>
+        <input type="text" name="name" placeholder="Ihr Name">
+        <input type="email" name="email" placeholder="Ihre E-Mail-Adresse">
+        <textarea name="message" placeholder="Ihre Nachricht"></textarea>
+        <button type="submit">Absenden</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 FlyingEnvelopes. Alle Rechte vorbehalten.</p>
+  </footer>
 </body>
 </html>
